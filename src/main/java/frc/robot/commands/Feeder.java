@@ -7,7 +7,7 @@ import frc.robot.RobotContainer;
 public class Feeder extends CommandBase {
     DigitalInput limitSwitch = new DigitalInput(4);
     public Feeder(){
-        //addRequirements(RobotContainer.m_Shooter);
+        addRequirements(RobotContainer.m_Shooter);
     }
     @Override
     public void execute(){

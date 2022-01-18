@@ -85,17 +85,7 @@ public class Robot extends TimedRobot {
     
    //The scheduler that runs the commands. DONT TOUCH
     getInstance().run();
-      double dist = enc1.getDistance();
-      SmartDashboard.putNumber("Encoder 1", dist);
-      double dist2 = -enc2.getDistance();
-      SmartDashboard.putNumber("Encoder 2", dist2);
-  
-        double p=.2;
-        double i=0;
-        double d=0;
-        SmartDashboard.putNumber("P", p);
-        SmartDashboard.putNumber("I", i);
-        SmartDashboard.putNumber("D", d);
+
 
 
   }

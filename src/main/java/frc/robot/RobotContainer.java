@@ -90,9 +90,8 @@ public class RobotContainer {
 
 
     //xButton2.whenPressed(new ShootOne());
-
-
-    xButton1.whenPressed(new DirectionSwitch());
+      aButton1.whenPressed (new pid());
+      xButton1.whenPressed(new DirectionSwitch());
     xButton2.whenPressed(new ShootBall());
     aButton2.whileHeld(new GrabPowerCell());
     aButton2.whenReleased(new StopIntake());
